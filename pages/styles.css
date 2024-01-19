@@ -1,0 +1,12 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/todoContainer/todoContainer.css);
+@import url(../blocks/taskInput/taskInput.css);
+@import url(../blocks/addTaskBtn/addTaskBtn.css);
+@import url(../blocks/tasks/tasks.css);
+@import url(../blocks/taskItem/taskItem.css);
+@import url(../blocks/checkmark/checkmark.css);
+@import url(../blocks/completed/completed.css);
+@import url(../blocks/removeButton/removeButton.css);
+

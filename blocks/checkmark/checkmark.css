@@ -1,0 +1,9 @@
+.checkmark {
+  cursor: pointer;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.checkmark:hover {
+  color: #4caf50;
+}

@@ -1,0 +1,11 @@
+.removeButton {
+  cursor: pointer;
+  background-color: #bd251f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.removeButton:hover {
+  background-color: #5a0707;
+}

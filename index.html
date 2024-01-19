@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Список задач</title>
+    <link rel="stylesheet" href="./pages/styles.css" />
+  </head>
+  <body class="page">
+    <form class="todoContainer">
+      <h1>Задачи</h1>
+      <input
+        type="text"
+        class="taskInput"
+        placeholder="Новая задача..."
+        required
+        maxlength="30"
+      />
+      <button type="submit" class="addTaskBtn">Добавить</button>
+      <ul class="tasks"></ul>
+    </form>
+    <template id="taskTemplate">
+      <li class="taskItem">
+        <input type="checkbox" class="checkmark"></input>
+        <p class="taskText"></p>
+        <button class="removeButton">Удалить</button>
+      </li>
+    </template>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
